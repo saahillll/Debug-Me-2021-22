@@ -5,8 +5,7 @@ EXPECTED OUTPUT = apple mango banana grapes kiwi
 """
 
 fruit=("apple , mango, orange, banana, grapes")
-
-fruit.append("kiwi")
-
-for i in fruit
-    printf("i");
+fruit1=(", kiwi")
+fruit=fruit+fruit1
+for i in fruit1:
+    print(fruit)

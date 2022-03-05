@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+// Expected Output
+// 'He' + 'llo ' + 'World' = Hello World
+
 char *my_strcat(char *dest, const char *source);
 char *my_strcat2(char *dest, const char *source);
 
